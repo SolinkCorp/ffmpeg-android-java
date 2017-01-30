@@ -14,7 +14,6 @@ public class CpuArchTest extends CommonInstrumentationTestCase {
 
     public void testFFmpegAssetsWithSha1Sum() {
         testFFmpegAsset(CpuArch.ARMv7, "armeabi-v7a/ffmpeg");
-        testFFmpegAsset(CpuArch.x86, "x86/ffmpeg");
     }
 
     private void testFFmpegAsset(CpuArch cpuArch, String assetsPath) {
